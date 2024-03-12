@@ -1,0 +1,61 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(200, 213, 225);
+}
+
+.conatiner{
+    margin: 100px;
+    padding: 25px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns:  1fr;
+    grid-template-rows: 1fr 50px;
+}
+
+input{
+    width: 80%;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+li{
+    border: 1px solid rgb(10, 33, 24);
+    padding: 25px;
+    background-color: aliceblue;
+    list-style: none;
+    max-width: 40%;
+    border-radius: 25px 25px 25px 0px;
+}
+
+.contact{
+    display: flex;
+    gap: 20px;
+}
+
+.contact input {
+    padding: 20px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.contact button {
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.me{
+    background-color: aliceblue;
+    transform: translate(500px);
+    border-radius: 25px 25px 0px 25px;
+}
